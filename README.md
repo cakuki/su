@@ -2,9 +2,13 @@
 
 Yet another URL shortener application.
 
+This is just for fun, production usage is not recommended.
+
 ## Running
 
 You can run the application with `./bin/su.js` executable. It will run on 3000 with the host configured to localhost by default.
+
+For testing out it with Docker, just type `docker-compose up` and it will also spin up MongoDB for you.
 
 ### Requirements
 

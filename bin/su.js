@@ -8,4 +8,4 @@ const {
 
 const app = require('../src/app')({ PORT, PUBLIC_URL, MONGO_CS })
 
-app.listen(PORT)
+app.listen(PORT, '0.0.0.0')
