@@ -1,0 +1,38 @@
+{
+  "name": "@ckk/su",
+  "version": "1.0.0",
+  "description": "Yet another URL shortener application.",
+  "main": "src/app.js",
+  "bin": {
+    "su": "su.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "fastify": "2.4.1",
+    "mongoose": "5.5.14"
+  },
+  "devDependencies": {
+    "ava": "2.1.0",
+    "mongodb-memory-server": "5.1.4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakuki/su.git"
+  },
+  "keywords": [
+    "url",
+    "url-shortener",
+    "shortener"
+  ],
+  "author": "Can Kutlu Kinay <me@ckk.im>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakuki/su/issues"
+  },
+  "homepage": "https://github.com/cakuki/su#readme"
+}
