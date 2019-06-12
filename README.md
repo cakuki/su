@@ -16,9 +16,11 @@ If you run this app on your machine, you need a MongoDB instance running.
 
 ### Configuration
 
-|PORT|`3000`|Port number of the process|
-|PUBLIC_URL|`'http://localhost:3000'`|Public url to be used in API response|
-|MONGO_CS|`'mongodb://localhost/su_development'`|MongoDB connection string|
+| Variable   | Default value                          | Description                           |
+| ---------- | -------------------------------------- | ------------------------------------- |
+| PORT       | `3000`                                 | Port number of the process            |
+| PUBLIC_URL | `'http://localhost:3000'`              | Public url to be used in API response |
+| MONGO_CS   | `'mongodb://localhost/su_development'` | MongoDB connection string             |
 
 ## API
 
