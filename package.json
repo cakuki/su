@@ -10,7 +10,7 @@
     "test": "test"
   },
   "dependencies": {
-    "fastify": "2.4.1",
+    "fastify": "2.15.1",
     "mongoose": "5.7.5"
   },
   "devDependencies": {
